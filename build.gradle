@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+archivesBaseName = 'wordFinder'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.adrianonobre.wordfinder.Main'
+    }
+}
