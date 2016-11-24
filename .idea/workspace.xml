@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa8b8b9-77bd-49b2-9969-1cf941681759" name="Default" comment="added Bash wrapper around jar">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/wordbag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="cfa8b8b9-77bd-49b2-9969-1cf941681759" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/adrianonobre/wordfinder/Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/adrianonobre/wordfinder/Main.java" />
     </list>
     <ignored path="word_finder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1023,6 +1017,14 @@
       <option name="presentableId" value="Default" />
       <updated>1479593822973</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Bash wrapper around jar">
+      <created>1479967918488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479967918488</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
