@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         if (args.length != 2) {
             printUsage();
-            System.exit(-1);
+            System.exit(1);
         }
 
         String fileName = args[0];
@@ -27,7 +27,7 @@ public class Main {
         } catch (IOException e) {
             System.out.println(String.format("Could not open file %s. Is this path correct?", fileName));
             printUsage();
-            System.exit(-1);
+            System.exit(1);
         }
 
         final long start = System.currentTimeMillis();
@@ -35,7 +35,7 @@ public class Main {
         final long end = System.currentTimeMillis();
 
         words.forEach(System.out::println);
-        System.out.println(String.format("Found %d words using the letters %s in %d millis", words.size(), Arrays.toString(letters), (end - start)));
+//        System.out.println(String.format("Found %d words using the letters %s in %d millis", words.size(), Arrays.toString(letters), (end - start)));
     }
 
     private static void printUsage() {

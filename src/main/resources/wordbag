@@ -1,0 +1,27 @@
+#!/bin/bash
+
+DICT=/usr/share/dict/words
+
+if [[ $# -lt 1 || $# -gt 2 ]]; then
+    echo "Incorrect number of arguments!"
+    echo "-----------------------------------------------------------"
+    echo "Usage: ./wordbag <sequence_of_chars> [<optional_dict_file>]"
+    echo ""
+    exit 1
+fi
+
+if [[ $# -eq 2 ]]; then
+    DICT=$2
+fi
+
+if [[ ! -f $DICT ]]; then
+    echo "Dictionary file $DICT not found!"
+    exit 1
+fi
+
+if [[ ! -f "wordFinder.jar" ]]; then
+    echo "File wordFinder.jar must be located in the current directory"
+    exit 1
+fi
+
+java -jar wordFinder.jar $DICT $1

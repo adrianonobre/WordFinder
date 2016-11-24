@@ -7,3 +7,4 @@ jar {
         attributes 'Main-Class': 'org.adrianonobre.wordfinder.Main'
     }
 }
+
